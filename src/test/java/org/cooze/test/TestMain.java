@@ -17,31 +17,13 @@ import java.io.IOException;
 public class TestMain {
 
 
-
     @Test
-    public  void javaXML() throws IOException, SAXException {
-      File file =  new File("/Volumes/NETAC/soft/ideaWorkSpace/project/spring-cloud/clazz-generator/java-compiler/src/main/resources/ExampleTemplate.xml");
+    public void javaXML() throws IOException, SAXException {
+        File file = new File(System.getProperty("user.dir") + "/src/main/resources/ExampleTemplate.xml");
 
-       JavaXML javaXML = XMLBeanUtil.parsingXML(file);
+        JavaXML javaXML = XMLBeanUtil.parsingXML(file);
 
     }
-
-
-    @Test
-    public void testfield(){
-//        System.out.println("\n\n\n\n");
-//        for (int i=0; i<32;i++ ){
-//            System.out.print(256+".");
-//        }
-//        System.out.println("\n\n\n\n");
-//256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256.256
-        System.out.println(Integer.parseInt("100",16));//256
-
-//        System.out.println();
-
-    }
-
-
 
 
 }
