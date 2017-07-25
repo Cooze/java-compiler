@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JavaXML>
+    <packageName>
+        test
+    </packageName>
+
+    <modifier>
+       public class
+    </modifier>
+
+    <className>
+        Person
+    </className>
+
+    <attributes>
+        <attribute gs="all">
+            <modifier>
+                private
+            </modifier>
+            <type>
+                String
+            </type>
+            <name>
+                 message
+            </name>
+        </attribute>
+        <attribute gs="all">
+            <modifier>
+                private
+            </modifier>
+            <type>
+                String
+            </type>
+            <name>
+                name
+            </name>
+        </attribute>
+    </attributes>
+</JavaXML>

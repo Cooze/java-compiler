@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JavaXML>
+    <packageName>
+        org.cooze.clazz
+    </packageName>
+    <modifier>
+       public class
+    </modifier>
+
+    <className>
+        Hello
+    </className>
+
+    <attributes>
+        <attribute gs="all">
+            <modifier>
+                private
+            </modifier>
+            <type>
+                String
+            </type>
+            <name>
+                 message
+            </name>
+        </attribute>
+    </attributes>
+
+    <methods>
+        <method>
+            <name>
+                sayHello
+            </name>
+            <modifier>
+                public
+            </modifier>
+            <returnType>
+                void
+            </returnType>
+            <methodBody>
+                System.out.println("Hello XML JavaBean.");
+                if(message!=null &amp;&amp; !"".equals(message)){
+                    System.out.println("print "+this.message);
+                }
+            </methodBody>
+        </method>
+    </methods>
+</JavaXML>

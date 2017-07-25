@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JavaXML>
+    <packageName>
+        org.cooze.main
+    </packageName>
+    <modifier>
+       public class
+    </modifier>
+    <className>
+        MyMain
+    </className>
+    <methods>
+        <method>
+            <name>
+                main
+            </name>
+            <modifier>
+                public static
+            </modifier>
+            <returnType>
+                void
+            </returnType>
+            <methodParameters>
+                <parameter>
+                    <type>
+                        String[]
+                    </type>
+                    <name>
+                        args
+                    </name>
+                </parameter>
+            </methodParameters>
+            <methodBody>
+                System.out.println("测试执行main方法");
+            </methodBody>
+        </method>
+    </methods>
+</JavaXML>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JavaXML>
+    <packageName>
+        org.cooze.hello
+    </packageName>
+    <importPackages>
+        <packageName>
+            test.Person
+        </packageName>
+    </importPackages>
+    <modifier>
+       public class
+    </modifier>
+    <className>
+        HelloWorld
+    </className>
+    <methods>
+        <method>
+            <name>
+                sayHello
+            </name>
+            <modifier>
+                public
+            </modifier>
+            <returnType>
+                void
+            </returnType>
+            <methodParameters>
+                <parameter>
+                    <type>
+                        Person
+                    </type>
+                    <name>
+                        person
+                    </name>
+                </parameter>
+            </methodParameters>
+            <methodBody>
+                System.out.println(person.getName()+" say "+person.getMessage());
+            </methodBody>
+        </method>
+    </methods>
+</JavaXML>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<JavaXML>
+    <packageName>
+        包名
+    </packageName>
+    <importPackages>
+        <packageName>
+            导入包名1
+        </packageName>
+    </importPackages>
+
+    <modifier>
+        类修饰符号,public final class 等等
+    </modifier>
+
+    <className>
+        类名
+    </className>
+
+    <annotations>
+        <annotation>
+            类上的注解
+        </annotation>
+    </annotations>
+
+    <extends>
+        父类名称
+    </extends>
+
+    <implements>
+        <interface>
+            接口名1
+        </interface>
+        <interface>
+            接口名2
+        </interface>
+    </implements>
+
+    <attributes>
+        <attribute gs="all|getter|setter">
+            <type>
+                属性类型
+            </type>
+
+            <modifier>
+                属性修饰符号,如：public static final
+            </modifier>
+            <name>
+                属性名称
+            </name>
+            <annotations>
+                <annotation>
+                    属性注解
+                </annotation>
+            </annotations>
+        </attribute>
+    </attributes>
+    <methods>
+        <method>
+            <name>
+                方法名称
+            </name>
+
+            <annotations>
+                <annotation>
+                    方法注解
+                </annotation>
+            </annotations>
+
+            <modifier>
+                方法修饰符 public static 等
+            </modifier>
+
+            <returnType>
+                返回值类型
+            </returnType>
+
+            <throwsExceptions>
+                异常名称,逗号分割
+            </throwsExceptions>
+
+            <methodParameters>
+                <parameter>
+                    <type>
+                        方法形式参数类型
+                    </type>
+                    <modifier>
+                        方法参数修饰符 final
+                    </modifier>
+                    <name>
+                        形式参数名称
+                    </name>
+                </parameter>
+            </methodParameters>
+            <methodBody>
+                方法体，自行编写
+            </methodBody>
+        </method>
+    </methods>
+
+</JavaXML>
